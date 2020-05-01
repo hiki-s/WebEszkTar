@@ -1,0 +1,91 @@
+body{
+	margin-top:100px;
+	width:100%;
+	height:100%;
+	margin:0;
+	background-image:url("hatter/hatter2.jpg");
+}
+div#menu {
+	position: relative;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	z-index: -1;
+	width:100%;
+	z-index: 1;
+}
+ul#menuSor {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #00CED1;
+}
+li {
+  float: left;
+}
+li.kilepes{
+	float: right;
+}
+li.akt{
+	background-color: blue;
+	  font-weight:bold;
+}
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 20px;
+  font-family:"Courier New", Courier, monospace;
+}
+li a:hover {
+  background-color: blue;
+  font-size: 20px;
+  font-family:"Courier New", Courier, monospace;
+  font-weight:bold;
+}
+div.container {
+	position:relative;
+	width:100%;
+	height:100%;
+}
+
+div.felvesz {
+	display: block;
+	position:relative;
+	width:200px;
+	float: left;
+	text-align:center;
+	border: 3px solid blue;
+	margin-left:5%;
+	margin-top:5%;
+	background-color:cyan;
+}
+div.modosit {
+	display: block;
+	position:relative;
+	width:200px;
+	float: left;
+	text-align:center;
+	border: 3px solid blue;
+	margin-left:5%;
+	margin-top:5%;
+	background-color:cyan;
+}
+div.ujEszk {
+	display: block;
+	position:relative;
+	width:200px;
+	float: left;
+	text-align:center;
+	border: 3px solid blue;
+	margin-left:5%;
+	margin-top:5%;
+	background-color:cyan;
+}
+tr:hover {
+	box-shadow: 3px 3px;
+	background-color:#00CED1;
+}

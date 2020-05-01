@@ -1,0 +1,85 @@
+body {
+	margin-top:100px;
+	width:100%;
+	height:100%;
+	margin:0;
+	background-image:url("hatter/hatter2.jpg");
+}
+div#menu {
+	position: relative;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	z-index: -1;
+	width:100%;
+	z-index: 1;
+}
+ul#menuSor {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+background-color: #00CED1;
+}
+li {
+  float: left;
+}
+li#kilepes {
+	float: right;
+}
+li.akt {
+	background-color: blue;
+	font-weight:bold;
+}
+li a {
+	display: block;
+	color: black;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-size: 20px;
+	font-family:"Courier New", Courier, monospace;
+}
+li a:hover {
+	background-color: blue;
+	font-size: 20px;
+	font-family:"Courier New", Courier, monospace;
+	font-weight:bold;
+}
+li#nev {
+	text-align:center;
+	margin-top:10px;
+	margin-right:5%;
+	font-size: 25px;
+	float: right;
+}
+tr:hover {
+	box-shadow: 3px 3px;
+	background-color:#00CED1;
+}
+td {
+	max-width: 140px;
+	overflow: auto;
+	text-align:center;
+}
+div.container {
+	position:relative;
+	width:100%;
+	height:100%;
+}
+div#igenylesek {
+	display: inline-block;
+	position:relative;
+	float: left;
+	border: 3px solid blue;
+	margin-left:15%;
+	margin-top:2%;
+	background-color:cyan;
+}
+p#cim {
+	margin:0px;
+	margin-top:5px;
+	margin-bottom:5px;
+	text-align:center;
+	font-size: 20px;
+}
